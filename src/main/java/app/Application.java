@@ -7,8 +7,8 @@ public class Application {
     public static void main(String[] args) {
 
         EntityManagerFactory entityManagerFactory = Persistence
-                .createEntityManagerFactory("sales");
+                .createEntityManagerFactory("university_system");
 
-        entityManagerFactory.close();
+        entityManagerFactory.createEntityManager();
     }
 }
