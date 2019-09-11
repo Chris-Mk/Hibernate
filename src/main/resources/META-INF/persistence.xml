@@ -4,10 +4,9 @@
              xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
              http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
              version="2.0">
-
-    <persistence-unit name="gringotts">
+    <persistence-unit name="sales">
         <properties>
-            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/gringotts?createDatabaseIfNotExist=true"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/sales_db?createDatabaseIfNotExist=true"/>
             <property name="hibernate.connection.driver" value="com.mysql.jdbc.Driver"/>
             <property name="hibernate.connection.username" value="root"/>
             <property name="hibernate.connection.password" value=""/>
