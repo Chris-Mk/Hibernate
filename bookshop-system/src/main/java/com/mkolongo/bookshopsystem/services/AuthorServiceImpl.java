@@ -39,4 +39,9 @@ public class AuthorServiceImpl implements AuthorService {
             this.authorRepository.saveAndFlush(author);
         }
     }
+    
+    @Override
+    public List<Author> getAuthorsByPattern(String letters) {
+        return this.authorRepository.findAuthorByFirstNameEndingWith(letters);
+    }
 }
