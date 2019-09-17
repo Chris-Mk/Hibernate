@@ -9,4 +9,5 @@ import java.util.Set;
 @Repository
 public interface AuthorRepository extends JpaRepository<Author, Integer> {
 
+  List<Author> findAuthorByFirstNameEndingWith(String letters);
 }
