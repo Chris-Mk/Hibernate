@@ -59,5 +59,125 @@ public class ConsoleRunner implements CommandLineRunner {
                         book.getTitle(),
                         book.getReleaseDate().toString(),
                         book.getCopies())));
+        
+        --------books queries----------
+//        booksTitlesByAgeRestriction();
+//        goldenBooks();
+//        booksByPrice();
+//        notReleasedBooks();
+//        booksReleasedBeforeDate();
+//        booksSearch();
+//        bookTitlesSearch();
+//        countBooks();
+//        totalBookCopies();
+//        reducedBook();
+//        increaseBookCopies();
+//        removeBooks();
+
+//        ------------authors queries--------------
+//        authorsSearch();
+
+        String firstName = this.scanner.nextLine();
+        String lastName = this.scanner.nextLine();
+
+        final int booksCount = this.bookService.getBooksCountWrittenBy(firstName, lastName);
+
+        System.out.printf("%s %s has written %d books%n", firstName, lastName, booksCount);
+    }
+    
+    private void removeBooks() {
+        int bookCopies = Integer.parseInt(scanner.nextLine());
+
+        System.out.println(this.bookService.deleteBooksWithCopiesLessThan(bookCopies));
+    }
+
+    private void increaseBookCopies() {
+        LocalDate releaseDate = LocalDate.parse(this.scanner.nextLine(), DateTimeFormatter.ofPattern("dd-MMM-yyyy"));
+        int bookCopies = Integer.parseInt(scanner.nextLine());
+
+        final int updatedBooks = this.bookService.increaseBookCopiesReleasedAfter(releaseDate, bookCopies);
+        int totalBooksAdded = updatedBooks * bookCopies;
+
+        System.out.println(totalBooksAdded);
+        System.out.printf("%d books are released after %s, so total of %d book copies were added%n",
+                updatedBooks,
+                releaseDate,
+                totalBooksAdded);
+    }
+
+    private void reducedBook() {
+        String bookTitle = this.scanner.nextLine();
+
+        final String book = this.bookService.getAllBooksByTitle(bookTitle);
+        System.out.println(book);
+    }
+
+    private void totalBookCopies() {
+        this.bookService.getTotalCopiesOfAllAuthors()
+                .forEach(System.out::println);
+    }
+
+    private void countBooks() {
+        int bookLength = Integer.parseInt(scanner.nextLine());
+
+        final int booksCount = this.bookService.getBooksTitleLongerThan(bookLength);
+
+        System.out.println(booksCount);
+        System.out.printf("There are %d books with longer title than %d symbols%n", booksCount, bookLength);
+    }
+
+    private void bookTitlesSearch() {
+        String pattern = this.scanner.nextLine();
+
+        this.bookService.getBooksByAuthorsLastNameStartingWith(pattern)
+                .forEach(book -> System.out.println(String.format("%s (%s)",
+                        book.getTitle(),
+                        String.join(" ", book.getAuthor().getFirstName(), book.getAuthor().getLastName()))));
+    }
+
+    private void booksSearch() {
+        String pattern  = this.scanner.nextLine();
+
+        this.bookService.getBooksWithTitleContaining(pattern)
+                .forEach(book -> System.out.println(book.getTitle()));
+    }
+
+    private void authorsSearch() {
+        String letters = this.scanner.nextLine();
+
+        this.authorService.getAuthorsByPattern(letters)
+                .forEach(author -> System.out.println(author.getFirstName() + " " + author.getLastName()));
+    }
+
+    private void booksReleasedBeforeDate() {
+        LocalDate releasedDate = LocalDate.parse(this.scanner.nextLine(), DateTimeFormatter.ofPattern("dd-MM-yyyy"));
+
+        this.bookService.getBooksBeforeYear(releasedDate)
+                .forEach(book -> System.out.println(String.format("%s %s %s",
+                        book.getTitle(),
+                        book.getEditionType(),
+                        book.getPrice())));
+    }
+
+    private void notReleasedBooks() {
+        this.bookService.getBooksNotReleasedInYear()
+                .forEach(book -> System.out.println(book.getTitle()));
+    }
+
+    private void booksByPrice() {
+        this.bookService.getBooksByPriceRange()
+                .forEach(book -> System.out.println(book.getTitle()  + " - $" + book.getPrice()));
+    }
+
+    private void goldenBooks() {
+        this.bookService.getGoldenBooksWithLessThan5000Copies()
+                .forEach(book -> System.out.println(book.getTitle()));
+    }
+
+    private void booksTitlesByAgeRestriction() {
+        String ageRestriction = this.scanner.nextLine().toUpperCase();
+
+        this.bookService.getBooksByAgeRestriction(AgeRestriction.valueOf(ageRestriction))
+                .forEach(book -> System.out.println(book.getTitle()));
     }
 }
