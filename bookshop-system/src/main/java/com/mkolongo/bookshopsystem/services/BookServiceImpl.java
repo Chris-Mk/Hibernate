@@ -110,6 +110,85 @@ public class BookServiceImpl implements BookService {
     public List<Book> getBooksByAuthor(String firstName, String lastName) {
         return this.bookRepository.findBooksByAuthor_FirstNameAndAuthor_LastName(firstName, lastName);
     }
+    
+    @Override
+    public List<Book> getBooksByAgeRestriction(AgeRestriction ageRestriction) {
+        return this.bookRepository.findBooksByAgeRestriction(ageRestriction);
+    }
+
+    @Override
+    public List<Book> getGoldenBooksWithLessThan5000Copies() {
+        return this.bookRepository.findBooksByEditionTypeAndCopiesLessThan();
+    }
+
+    @Override
+    public List<Book> getBooksByPriceRange() {
+        return this.bookRepository.findBooksByPriceLessThanOrPriceGreaterThan();
+    }
+
+    @Override
+    public List<Book> getBooksNotReleasedInYear() {
+        return this.bookRepository.findBooksByReleaseDate_YearIsNot();
+    }
+
+    @Override
+    public List<Book> getBooksWithTitleContaining(String pattern) {
+        return this.bookRepository.findBooksByTitleContaining(pattern);
+    }
+
+    @Override
+    public List<Book> getBooksByAuthorsLastNameStartingWith(String letters) {
+        return this.bookRepository.findBooksByAuthorLastNameStartingWith(letters.length(), letters);
+    }
+
+    @Override
+    public int getBooksTitleLongerThan(int length) {
+        return this.bookRepository.countBooksByTitleGreaterThan(length);
+    }
+
+    @Override
+    public List<String> getTotalCopiesOfAllAuthors() {
+        List<String> authorsWithCopies = new ArrayList<>();
+
+        this.bookRepository.findAll()
+                .stream()
+                .collect(Collectors.groupingBy(Book::getAuthor))
+                .entrySet()
+                .stream()
+                .sorted((a1, a2) -> Integer.compare(a2.getValue().stream().mapToInt(Book::getCopies).sum(),
+                        a1.getValue().stream().mapToInt(Book::getCopies).sum()))
+                .forEach(a -> authorsWithCopies.add(String.format("%s - %d",
+                        String.join(" ", a.getKey().getFirstName(), a.getKey().getLastName()),
+                        a.getValue().stream().mapToInt(Book::getCopies).sum())));
+
+        return authorsWithCopies;
+    }
+
+    @Override
+    public String getAllBooksByTitle(String title) {
+        final Book book = this.bookRepository.findBookByTitle(title);
+
+        return String.format("%s %s %s %s",
+                book.getTitle(),
+                book.getEditionType(),
+                book.getAgeRestriction(),
+                book.getPrice());
+    }
+
+    @Override
+    public int increaseBookCopiesReleasedAfter(LocalDate date, int copies) {
+        return this.bookRepository.updateBookCopiesReleasedAfter(date, copies);
+    }
+
+    @Override
+    public int deleteBooksWithCopiesLessThan(int copies) {
+        return this.bookRepository.deleteBooksWithCopiesLessThan(copies);
+    }
+
+    @Override
+    public int getBooksCountWrittenBy(String firstName, String lastName) {
+        return this.bookRepository.countBooksByAuthorFirstNameAndAuthorLastName(firstName, lastName);
+    }
 
     private Author getRandomAuthor() {
         final int randomId = random.nextInt((int) authorRepository.count() - 1) + 1;
