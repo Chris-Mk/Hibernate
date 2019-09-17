@@ -16,4 +16,28 @@ public interface BookService {
     List<Book> getAllBooks();
 
     List<Book> getBooksByAuthor(String firstName, String lastName);
+    
+    List<Book> getBooksByAgeRestriction(AgeRestriction ageRestriction);
+
+    List<Book> getGoldenBooksWithLessThan5000Copies();
+
+    List<Book> getBooksByPriceRange();
+
+    List<Book> getBooksNotReleasedInYear();
+
+    List<Book> getBooksWithTitleContaining(String pattern);
+
+    List<Book> getBooksByAuthorsLastNameStartingWith(String letters);
+
+    int getBooksTitleLongerThan(int length);
+
+    List<String> getTotalCopiesOfAllAuthors();
+
+    String getAllBooksByTitle(String title);
+
+    int increaseBookCopiesReleasedAfter(LocalDate date, int copies);
+
+    int deleteBooksWithCopiesLessThan(int copies);
+
+    int getBooksCountWrittenBy(String firstName, String lastName);
 }
