@@ -1,10 +1,9 @@
 package com.mkolongo.cardealer.controllers;
 
-import com.mkolongo.cardealer.dtos.seedDtos.CarSeedDto;
-import com.mkolongo.cardealer.dtos.seedDtos.CustomerSeedDto;
-import com.mkolongo.cardealer.dtos.seedDtos.PartSeedDto;
-import com.mkolongo.cardealer.dtos.seedDtos.SupplierSeedDto;
+import com.mkolongo.cardealer.dtos.seedDtos.*;
 import com.mkolongo.cardealer.dtos.viewDtos.*;
+import com.mkolongo.cardealer.models.Supplier;
+import com.mkolongo.cardealer.repositories.SupplierRepository;
 import com.mkolongo.cardealer.services.base.*;
 import com.mkolongo.cardealer.utils.base.FileUtil;
 import com.mkolongo.cardealer.utils.base.Parser;
@@ -12,6 +11,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+import javax.xml.bind.DatatypeConverter;
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Unmarshaller;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
@@ -60,79 +64,134 @@ public class ConsoleRunner implements CommandLineRunner {
         salesWithAppliedDiscount();
     }
 
-    private void salesWithAppliedDiscount() {
+    private void salesWithAppliedDiscount() throws JAXBException {
         final List<SaleDiscountViewDto> saleDiscountViewDtos = saleService.getSalesWithDiscount();
 
-        final String jsonString = parser.toJsonString(saleDiscountViewDtos);
-        System.out.println(jsonString);
+//        -------parse to json-------
+//        final String jsonString = parser.toJsonString(saleDiscountViewDtos);
+//        System.out.println(jsonString);
+
+//        -------parse to xml-------
+        SalesDiscountListViewDto salesDiscountListViewDto = new SalesDiscountListViewDto();
+        salesDiscountListViewDto.setSales(saleDiscountViewDtos);
+        parser.toXmlString(salesDiscountListViewDto);
     }
 
-    private void totalSalesByCustomer() {
+    private void totalSalesByCustomer() throws JAXBException {
         final Set<CustomerSalesViewDto> customerSalesViewDtos = customerService.getCustomersMoneySpent();
 
-        final String jsonString = parser.toJsonString(customerSalesViewDtos);
-        System.out.println(jsonString);
+//        -------parse to json------
+//        final String jsonString = parser.toJsonString(customerSalesViewDtos);
+//        System.out.println(jsonString);
+
+//        -------parse to xml-------
+        CustomerSalesListViewDto customerSalesListViewDto = new CustomerSalesListViewDto();
+        customerSalesListViewDto.setCustomers(customerSalesViewDtos);
+        parser.toXmlString(customerSalesListViewDto);
     }
 
-    private void carsWithTheirListOfParts() {
+    private void carsWithTheirListOfParts() throws JAXBException {
         final List<CarPartViewDto> carPartViewDtos = carService.getAllCarsWithTheirParts();
 
-        final String jsonString = parser.toJsonString(carPartViewDtos);
-        System.out.println(jsonString);
+//        -------parse to json--------
+//        final String jsonString = parser.toJsonString(carPartViewDtos);
+//        System.out.println(jsonString);
+
+//        -------parse to xml---------
+        CarPartListViewDto carPartListViewDto = new CarPartListViewDto();
+        carPartListViewDto.setCars(carPartViewDtos);
+        parser.toXmlString(carPartListViewDto);
     }
 
-    private void localSuppliers() {
+    private void localSuppliers() throws JAXBException {
         final List<SupplierViewDto> supplierViewDtos = supplierService.getAllLocalSuppliers();
 
-        final String jsonString = parser.toJsonString(supplierViewDtos);
-        System.out.println(jsonString);
+//        -------parse to json--------
+//        final String jsonString = parser.toJsonString(supplierViewDtos);
+//        System.out.println(jsonString);
+
+//        -------parse to xml--------
+        SupplierListViewDto supplierListViewDto = new SupplierListViewDto();
+        supplierListViewDto.setSuppliers(supplierViewDtos);
+        parser.toXmlString(supplierListViewDto);
     }
 
-    private void carsFromMakeToyota() {
+    private void carsFromMakeToyota() throws JAXBException {
         final String carMake = scanner.nextLine();
-
         final List<CarViewDto> carViewDtos = carService.getAllCarsFromMake(carMake);
 
-        final String jsonString = parser.toJsonString(carViewDtos);
-        System.out.println(jsonString);
+//        -------parse to json------
+//        final String jsonString = parser.toJsonString(carViewDtos);
+//        System.out.println(jsonString);
+
+//        -------parse to xml--------
+        CarListViewDto carListViewDto = new CarListViewDto();
+        carListViewDto.setCars(carViewDtos);
+        parser.toXmlString(carListViewDto);
     }
 
-    private void orderedCustomer() {
+    private void orderedCustomer() throws JAXBException {
         final List<CustomerViewDto> customerViewDtos = customerService.getAllCustomersOrderByBirthDate();
 
-        final String jsonString = parser.toJsonString(customerViewDtos);
-        System.out.println(jsonString);
+//        -----parse to json-----
+//        final String jsonString = parser.toJsonString(customerViewDtos);
+//        System.out.println(jsonString);
+
+//        ------parse to xml------
+        CustomerListViewDto customerListSeedDto = new CustomerListViewDto();
+        customerListSeedDto.setCustomers(customerViewDtos);
+        parser.toXmlString(customerListSeedDto);
     }
 
     private void seedSales() {
         saleService.seedSalesIntoDatabase();
     }
 
-    private void seedCustomers() throws IOException {
-        final String customerInfo = fileUtil.readFile("files/customers.json");
+    private void seedCustomers() throws IOException, JAXBException {
+//        -------seed from json-------
+//        final String customerInfo = fileUtil.readFile("files/customers.json");
+//        final CustomerSeedDto[] customerSeedDtos = parser.fromJsonString(customerInfo, CustomerSeedDto[].class);
+//        customerService.seedCustomersIntoDatabase(customerSeedDtos);
 
-        final CustomerSeedDto[] customerSeedDtos = parser.toObject(customerInfo, CustomerSeedDto[].class);
-        customerService.seedCustomersIntoDatabase(customerSeedDtos);
+//        --------seed from xml-------
+        final String customersInfo = fileUtil.readFile("files/customers.xml");
+        final CustomerListSeedDto customerListSeedDto = parser.fromXmlString(customersInfo, CustomerListSeedDto.class);
+        customerService.seedCustomersIntoDatabase(customerListSeedDto.getCustomers().toArray(CustomerSeedDto[]::new));
     }
 
-    private void seedCars() throws IOException {
-        final String carsInfo = fileUtil.readFile("files/cars.json");
+    private void seedCars() throws IOException, JAXBException {
+//        -------seed from json-------
+//        final String carsInfo = fileUtil.readFile("files/cars.json");
+//        final CarSeedDto[] carSeedDtos = parser.fromJsonString(carsInfo, CarSeedDto[].class);
+//        carService.seedCarsIntoDatabase(carSeedDtos);
 
-        final CarSeedDto[] carSeedDtos = parser.toObject(carsInfo, CarSeedDto[].class);
-        carService.seedCarsIntoDatabase(carSeedDtos);
+//        --------seed from xml-------
+        final String carsInfo = fileUtil.readFile("files/cars.xml");
+        final CarListSeedDto carListSeedDto = parser.fromXmlString(carsInfo, CarListSeedDto.class);
+        carService.seedCarsIntoDatabase(carListSeedDto.getCars().toArray(CarSeedDto[]::new));
     }
 
-    private void seedParts() throws IOException {
-        final String partsInfo = fileUtil.readFile("files/parts.json");
+    private void seedParts() throws IOException, JAXBException {
+//        -------seed from json-------
+//        final String partsInfo = fileUtil.readFile("files/parts.json");
+//        final PartSeedDto[] partSeedDtos = parser.fromJsonString(partsInfo, PartSeedDto[].class);
+//        partService.seedPartsIntoDatabase(partSeedDtos);
 
-        final PartSeedDto[] partSeedDtos = parser.toObject(partsInfo, PartSeedDto[].class);
-        partService.seedPartsIntoDatabase(partSeedDtos);
+//        --------seed from xml-------
+        final String partsInfo = fileUtil.readFile("files/parts.xml");
+        final PartListSeedDto partListSeedDto = parser.fromXmlString(partsInfo, PartListSeedDto.class);
+        partService.seedPartsIntoDatabase(partListSeedDto.getParts().toArray(PartSeedDto[]::new));
     }
 
-    private void seedSuppliers() throws IOException {
-        final String suppliersInfo = fileUtil.readFile("files/suppliers.json");
+    private void seedSuppliers() throws IOException, JAXBException {
+//        -------seed from json-------
+//        final String suppliersInfo = fileUtil.readFile("files/suppliers.json");
+//        final SupplierSeedDto[] supplierSeedDtos = parser.fromJsonString(suppliersInfo, SupplierSeedDto[].class);
+//        supplierService.seedSuppliersIntoDatabase(supplierSeedDtos);
 
-        final SupplierSeedDto[] supplierSeedDtos = parser.toObject(suppliersInfo, SupplierSeedDto[].class);
-        supplierService.seedSuppliersIntoDatabase(supplierSeedDtos);
+//        --------seed from xml-------
+        final String suppliersInfo = fileUtil.readFile("files/suppliers.xml");
+        final SupplierListSeedDto supplierListSeedDto = parser.fromXmlString(suppliersInfo, SupplierListSeedDto.class);
+        supplierService.seedSuppliersIntoDatabase(supplierListSeedDto.getSuppliers().toArray(SupplierSeedDto[]::new));
     }
 }
