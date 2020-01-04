@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4aaebb49-09f8-405d-a394-2907f5d8ba7a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../http protocol/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../http protocol/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../http protocol/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../http protocol/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../http protocol/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../http protocol/http protocol.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../http protocol/src/HttpRequestImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../http protocol/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BubbleSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CountCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FindDuplicateNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FindMissingNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FirstNonRepeatingCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IntegersSumEqualToK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaxAndMinValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyMergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrimeFactors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RemoveDuplicatesFromArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReverseStringWithRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwapIntegerWithoutVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doublyLinkedList/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doublyLinkedList/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singlyLinkedList/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singlyLinkedList/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Beer-Store/images/form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/the interview/BinarySubStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/the interview/BinarySubStrings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/the interview/ReverseString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/the interview/ReverseString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/the interview/WordOccurrences.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/the interview/WordOccurrences.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BookShelves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookShelves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WordOccurrences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WordOccurrences.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\User\OneDrive\Desktop\java programs\the interview\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Rrtsoyu3Lkwd2NH7MetpG2q6OE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.PrimeFactors">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doublyLinkedList.Main" />
+      <module name="the interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="doublyLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singlyLinkedList.Main" />
+      <module name="the interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="singlyLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeFactors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrimeFactors" />
+      <module name="the interview" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseArray" />
+      <module name="the interview" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseString" />
+      <module name="the interview" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PrimeFactors" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.ReverseArray" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4aaebb49-09f8-405d-a394-2907f5d8ba7a" name="Default Changelist" comment="" />
+      <created>1570437254502</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570437254502</updated>
+      <workItem from="1570437267296" duration="10199000" />
+      <workItem from="1570450444167" duration="58000" />
+      <workItem from="1570450635026" duration="83000" />
+      <workItem from="1570529928587" duration="160000" />
+      <workItem from="1570957652788" duration="7506000" />
+      <workItem from="1570971070175" duration="17567000" />
+      <workItem from="1571043981519" duration="8208000" />
+      <workItem from="1571131125600" duration="4084000" />
+      <workItem from="1571138470614" duration="880000" />
+      <workItem from="1571222091798" duration="14313000" />
+      <workItem from="1571312751052" duration="1543000" />
+      <workItem from="1571389132764" duration="789000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

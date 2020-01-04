@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c49fbd11-388d-4e3d-8921-a61c2153253b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../products shop/src/main/java/com/mkolongo/productsshop/config/ApplicationBeanConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../products shop/src/main/java/com/mkolongo/productsshop/dtos/CategorySeedDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../products shop/src/main/java/com/mkolongo/productsshop/dtos/ProductsSeedDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../products shop/src/main/java/com/mkolongo/productsshop/dtos/UserSeedDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../products shop/src/main/java/com/mkolongo/productsshop/models/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../products shop/src/main/java/com/mkolongo/productsshop/models/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../products shop/src/main/java/com/mkolongo/productsshop/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../products shop/src/main/java/com/mkolongo/productsshop/models/base/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../products shop/src/main/java/com/mkolongo/productsshop/repositories/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../products shop/src/main/java/com/mkolongo/productsshop/repositories/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../products shop/src/main/java/com/mkolongo/productsshop/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../products shop/src/main/java/com/mkolongo/productsshop/runners/ConsoleRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../products shop/src/main/java/com/mkolongo/productsshop/services/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../products shop/src/main/java/com/mkolongo/productsshop/services/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../products shop/src/main/java/com/mkolongo/productsshop/services/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../products shop/src/main/java/com/mkolongo/productsshop/services/base/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../products shop/src/main/java/com/mkolongo/productsshop/services/base/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../products shop/src/main/java/com/mkolongo/productsshop/services/base/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../products shop/src/main/java/com/mkolongo/productsshop/util/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../products shop/src/main/java/com/mkolongo/productsshop/util/FileUtilImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../people/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../people/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="gamebar: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1Qmgbhow3RzqD32v5T3N3tSsWKy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\OneDrive\Desktop\java programs\bookshop-system\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="BookshopSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bookshop-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mkolongo.bookshopsystem.BookshopSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c49fbd11-388d-4e3d-8921-a61c2153253b" name="Default Changelist" comment="" />
+      <created>1568381258821</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568381258821</updated>
+      <workItem from="1568381263569" duration="17960000" />
+      <workItem from="1568455203845" duration="5233000" />
+      <workItem from="1568637572948" duration="2420000" />
+      <workItem from="1568660872545" duration="169000" />
+      <workItem from="1568703722298" duration="20172000" />
+      <workItem from="1568887511694" duration="297000" />
+      <workItem from="1568892917566" duration="252000" />
+      <workItem from="1569241110480" duration="1260000" />
+    </task>
+    <task id="LOCAL-00001" summary="working with ORM">
+      <created>1568640469111</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568640469111</updated>
+    </task>
+    <task id="LOCAL-00002" summary="working with ORM">
+      <created>1568660962281</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568660962281</updated>
+    </task>
+    <task id="LOCAL-00003" summary="working with native queries and stored procedures">
+      <created>1568734888241</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568734888241</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="working with ORM" />
+    <MESSAGE value="working with native queries and stored procedures" />
+    <option name="LAST_COMMIT_MESSAGE" value="working with native queries and stored procedures" />
+  </component>
+</project>

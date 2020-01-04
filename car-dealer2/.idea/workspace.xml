@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9471ce27-a57c-41d9-94c7-49ad1815c3ec" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="car_dealer_db: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="car_dealer_db: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="cars_parts: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\User\OneDrive\Desktop\java programs\car-dealer2\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1V1N4KcTYFgMYbFU6EkuESlDbXQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.softuni.cardealer.repository" />
+      <recent name="org.softuni.cardealer.web.controllers" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SuppliersControllerTest.allSupplier_returnsCorrectView">
+    <configuration name="SuppliersControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cardealer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.softuni.cardealer.web.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.softuni.cardealer.web.controllers" />
+      <option name="MAIN_CLASS_NAME" value="org.softuni.cardealer.web.controllers.SuppliersControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuppliersControllerTest.addSupplier_redirectsToAllPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cardealer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.softuni.cardealer.web.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.softuni.cardealer.web.controllers" />
+      <option name="MAIN_CLASS_NAME" value="org.softuni.cardealer.web.controllers.SuppliersControllerTest" />
+      <option name="METHOD_NAME" value="addSupplier_redirectsToAllPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuppliersControllerTest.addSupplier_withInvalidData_throwsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cardealer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.softuni.cardealer.web.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.softuni.cardealer.web.controllers" />
+      <option name="MAIN_CLASS_NAME" value="org.softuni.cardealer.web.controllers.SuppliersControllerTest" />
+      <option name="METHOD_NAME" value="addSupplier_withInvalidData_throwsException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuppliersControllerTest.allSupplier_returnsCorrectView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cardealer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.softuni.cardealer.web.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.softuni.cardealer.web.controllers" />
+      <option name="MAIN_CLASS_NAME" value="org.softuni.cardealer.web.controllers.SuppliersControllerTest" />
+      <option name="METHOD_NAME" value="allSupplier_returnsCorrectView" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuppliersControllerTest.fetchSupplier_returnsAListOfAllSupplier_asResponseBody" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cardealer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.softuni.cardealer.web.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.softuni.cardealer.web.controllers" />
+      <option name="MAIN_CLASS_NAME" value="org.softuni.cardealer.web.controllers.SuppliersControllerTest" />
+      <option name="METHOD_NAME" value="fetchSupplier_returnsAListOfAllSupplier_asResponseBody" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardealerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cardealer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.softuni.cardealer.CardealerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SuppliersControllerTest.allSupplier_returnsCorrectView" />
+        <item itemvalue="JUnit.SuppliersControllerTest.addSupplier_withInvalidData_throwsException" />
+        <item itemvalue="JUnit.SuppliersControllerTest.addSupplier_redirectsToAllPage" />
+        <item itemvalue="JUnit.SuppliersControllerTest.fetchSupplier_returnsAListOfAllSupplier_asResponseBody" />
+        <item itemvalue="JUnit.SuppliersControllerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9471ce27-a57c-41d9-94c7-49ad1815c3ec" name="Default Changelist" comment="" />
+      <created>1576416448682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576416448682</updated>
+      <workItem from="1576416450891" duration="3130000" />
+      <workItem from="1576425097236" duration="646000" />
+      <workItem from="1576488212473" duration="9390000" />
+      <workItem from="1576580945146" duration="3508000" />
+      <workItem from="1576585120692" duration="10167000" />
+      <workItem from="1576607293939" duration="3379000" />
+      <workItem from="1576660542777" duration="10175000" />
+      <workItem from="1576750209137" duration="5395000" />
+      <workItem from="1576934503418" duration="593000" />
+      <workItem from="1577027381767" duration="2154000" />
+    </task>
+    <task id="LOCAL-00001" summary="unit testing spring boot app">
+      <created>1577028020957</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577028020957</updated>
+    </task>
+    <task id="LOCAL-00002" summary="integration tests for spring boot app">
+      <created>1577028840101</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577028840101</updated>
+    </task>
+    <task id="LOCAL-00003" summary="integration tests for spring boot app">
+      <created>1577029245363</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577029245363</updated>
+    </task>
+    <task id="LOCAL-00004" summary="thymeleaf templates">
+      <created>1577029345146</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577029345146</updated>
+    </task>
+    <task id="LOCAL-00005" summary="thymeleaf templates">
+      <created>1577029464567</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577029464567</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="unit testing spring boot app" />
+    <MESSAGE value="integration tests for spring boot app" />
+    <MESSAGE value="thymeleaf templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="thymeleaf templates" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576418883356">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1576418883356" />
+    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1577029463246">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577029463246" />
+    <state width="516" height="462" key="DebuggerActiveHint" timestamp="1576667488663">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="516" height="462" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1576667488663" />
+    <state width="1323" height="185" key="GridCell.Tab.0.bottom" timestamp="1576766909888">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576766909888" />
+    <state width="1323" height="185" key="GridCell.Tab.0.center" timestamp="1576766909887">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="185" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576766909887" />
+    <state width="1323" height="185" key="GridCell.Tab.0.left" timestamp="1576766909887">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="185" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576766909887" />
+    <state width="1323" height="185" key="GridCell.Tab.0.right" timestamp="1576766909887">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="185" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576766909887" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1576679527862">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576679527862" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1576679527862">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1576679527862" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1576679527862">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1576679527862" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1576679527862">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1576679527862" />
+    <state width="275" height="457" key="HiddenNamespacesPopup" timestamp="1576419422690">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="275" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1576419422690" />
+    <state x="186" y="0" key="SettingsEditor" timestamp="1576607535909">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576607535909" />
+    <state width="552" height="488" key="SwitcherDM" timestamp="1576609481873">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="552" height="488" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1576609481873" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1577029487171">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1577029487171" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1576934507254">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1576934507254" />
+    <state x="446" y="83" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1576502694307">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="446" y="83" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1576502694307" />
+    <state x="65" y="71" key="new project wizard" timestamp="1576584857393">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="71" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1576584857393" />
+  </component>
+</project>
