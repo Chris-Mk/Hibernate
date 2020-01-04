@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:sec="http://www.thymeleaf.org/extras/spring-security" xmlns:th="http://www.thymeleaf.org">
+<nav class="navbar navbar-expand-lg navbar-light bg-rs mt-3 rounded">
+    <a class="navbar-brand text-white" sec:authorize="isAnonymous()" th:href="@{/}">Resident Evil</a>
+    <a class="navbar-brand text-white" sec:authorize="isAuthenticated()" th:href="@{/users/home}">Resident Evil</a>
+    <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+            class="navbar-toggler"
+            data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <th:block sec:authorize="isAnonymous()">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" th:href="@{/}">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-white" th:href="@{/users/register}">Register</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-white" th:href="@{/users/login}">Login</a>
+                </li>
+            </th:block>
+            <th:block sec:authorize="isAuthenticated()">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" th:href="@{/users/home}">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle text-white"
+                       data-toggle="dropdown"
+                       href="" id="navbarDropdown" role="button">
+                        Viruses
+                    </a>
+                    <div aria-labelledby="navbarDropdown" class="dropdown-menu">
+                        <a class="dropdown-item" th:href="@{/viruses}">Show</a>
+                        <div sec:authorize="hasAnyRole('ADMIN', 'MODERATOR')">
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" th:href="@{/viruses/add}">Add</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item active" sec:authorize="hasRole('ADMIN')">
+                    <a class="nav-link text-white" th:href="@{/users}">Users</a>
+                </li>
+                <li class="nav-item active">
+                    <form th:action="@{/logout}" th:method="post">
+                        <button class="btn text-white">Logout</button>
+                    </form>
+                    <!--                    <a class="nav-link text-white" th:href="@{/logout}">Logout</a>-->
+                </li>
+            </th:block>
+        </ul>
+    </div>
+</nav>
+</html>
