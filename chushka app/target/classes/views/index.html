@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chushka App</title>
+    <style>
+        body {
+            background-color: lightgrey;
+            text-align: center;
+        }
+
+        button {
+            border-radius: 10px;
+            background-color: lightskyblue;
+            padding: 10px;
+        }
+
+        button a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<h1>Welcome to Chushka application</h1>
+<hr>
+<p>Check our products below!</p>
+<ul>
+    {{products}}
+</ul>
+<button><a href="/products/create">Create Product</a></button>
+</body>
+</html>

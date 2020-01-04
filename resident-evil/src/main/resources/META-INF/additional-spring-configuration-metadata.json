@@ -1,0 +1,19 @@
+{
+  "properties": [
+    {
+      "name": "application.jwt.token-prefix",
+      "type": "java.lang.String",
+      "description": "Prefix in the jws i.e Bearer"
+    },
+    {
+      "name": "application.jwt.token-expiration-days",
+      "type": "java.lang.Long",
+      "description": "Number of days to expiration date"
+    },
+    {
+      "name": "application.jwt.secret-key",
+      "type": "java.lang.String",
+      "description": "Secret key for signing jwts"
+    }
+  ]
+}

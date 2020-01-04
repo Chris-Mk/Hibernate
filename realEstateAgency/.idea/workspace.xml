@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3cb97fbe-c7df-4e54-807b-f49a8ea4c636" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="real_estate_db: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="real_estate_db: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="offers: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1U9jEJ7DoVgizslawvzSGeSMNYE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\OneDrive\Desktop\java programs\realEstateAgency\src\main\resources\static" />
+      <recent name="C:\Users\User\OneDrive\Desktop\java programs\realEstateAgency\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RealEstateAgencyApplication">
+    <configuration name="RealEstateAgencyApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="realEstateAgency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mkolongo.realestateagency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mkolongo.realestateagency" />
+      <option name="MAIN_CLASS_NAME" value="com.mkolongo.realestateagency.RealEstateAgencyApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="static in realEstateAgency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="realEstateAgency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="static.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="static" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RealEstateAgencyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="realEstateAgency" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mkolongo.realestateagency.RealEstateAgencyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.static in realEstateAgency" />
+        <item itemvalue="JUnit.RealEstateAgencyApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3cb97fbe-c7df-4e54-807b-f49a8ea4c636" name="Default Changelist" comment="" />
+      <created>1574775593073</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574775593073</updated>
+      <workItem from="1574775603328" duration="11481000" />
+      <workItem from="1574844185099" duration="1697000" />
+      <workItem from="1574846376295" duration="15540000" />
+      <workItem from="1574945156010" duration="1189000" />
+      <workItem from="1574954520816" duration="599000" />
+      <workItem from="1574959510923" duration="690000" />
+      <workItem from="1574960241271" duration="678000" />
+      <workItem from="1575021209007" duration="598000" />
+      <workItem from="1575384642249" duration="28000" />
+    </task>
+    <task id="LOCAL-00001" summary="servlets, jsp and jsf">
+      <created>1574867500374</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574867500374</updated>
+    </task>
+    <task id="LOCAL-00002" summary="uncommented method in car repository">
+      <created>1574867658160</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574867658160</updated>
+    </task>
+    <task id="LOCAL-00003" summary="servlets, jsp and jsf templating">
+      <created>1574868102399</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574868102399</updated>
+    </task>
+    <task id="LOCAL-00004" summary="spring mvc">
+      <created>1574868160208</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574868160208</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="servlets, jsp and jsf" />
+    <MESSAGE value="uncommented method in car repository" />
+    <MESSAGE value="servlets, jsp and jsf templating" />
+    <MESSAGE value="spring mvc" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring mvc" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="25" key="#Project_Structure" timestamp="1574959724895">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="25" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1574959724895" />
+    <state width="1323" height="217" key="GridCell.Tab.0.bottom" timestamp="1574960205154">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="217" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1574960205154" />
+    <state width="1323" height="217" key="GridCell.Tab.0.center" timestamp="1574960205154">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="217" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1574960205154" />
+    <state width="1323" height="217" key="GridCell.Tab.0.left" timestamp="1574960205153">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="217" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1574960205153" />
+    <state width="1323" height="217" key="GridCell.Tab.0.right" timestamp="1574960205154">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="217" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1574960205154" />
+    <state width="1323" height="217" key="GridCell.Tab.1.bottom" timestamp="1574960205154">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="217" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1574960205154" />
+    <state width="1323" height="217" key="GridCell.Tab.1.center" timestamp="1574960205154">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="217" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1574960205154" />
+    <state width="1323" height="217" key="GridCell.Tab.1.left" timestamp="1574960205154">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="217" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1574960205154" />
+    <state width="1323" height="217" key="GridCell.Tab.1.right" timestamp="1574960205154">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="217" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1574960205154" />
+    <state x="186" y="9" key="SettingsEditor" timestamp="1574960299797">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1574960299797" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1575022057721">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1575022057721" />
+  </component>
+</project>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d9dc8899-85d3-4921-8ee1-f9dd8b33abe8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../chushka app/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/chushka app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/domain/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/domain/entities/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/domain/models/ModelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/domain/models/ProductCreateModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/repository/GenericRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/repository/ProductRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/util/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/util/FileUtilImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/web/servlets/HomeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/web/servlets/ProductAllServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/web/servlets/ProductCreateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/web/servlets/ProductDetailServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/resources/views/all-products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/resources/views/create-product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/resources/views/details-product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/resources/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/meTube.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/src/main/java/app/domain/entities/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/src/main/java/app/domain/entities/Tube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/src/main/java/app/domain/models/binding/TubeCreateBindingModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/src/main/java/app/domain/models/service/TubeServiceModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/src/main/java/app/domain/models/view/TubeViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/src/main/java/app/repositories/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/src/main/java/app/repositories/TubeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/src/main/java/app/repositories/TubeRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/src/main/java/app/services/TubeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/src/main/java/app/services/TubeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/src/main/java/app/utils/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/src/main/java/app/web/filters/TubeCreateFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/src/main/java/app/web/servlets/IndexServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/src/main/java/app/web/servlets/TubeAllServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/src/main/java/app/web/servlets/TubeCreateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/src/main/java/app/web/servlets/TubeDetailsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/src/main/webapp/all-tubes.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/src/main/webapp/create-tube.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/src/main/webapp/details-tube.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube/src/main/webapp/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube_v2/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube_v2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube_v2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube_v2/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube_v2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube_v2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube_v2/meTube_v2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube_v2/src/main/java/app/domain/entities/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube_v2/src/main/java/app/domain/entities/Tube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube_v2/src/main/java/app/domain/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube_v2/src/main/java/app/repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube_v2/src/main/java/app/repository/abstraction/TubeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube_v2/src/main/java/app/repository/abstraction/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube_v2/src/main/java/app/repository/concretion/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube_v2/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube_v2/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meTube_v2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Most Wanted/src/main/java/mostwanted/repository/CarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Most Wanted/src/main/java/mostwanted/repository/CarRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Most Wanted/src/main/java/mostwanted/repository/DistrictRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Most Wanted/src/main/java/mostwanted/repository/DistrictRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Most Wanted/src/main/java/mostwanted/service/RacerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Most Wanted/src/main/java/mostwanted/service/RacerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Most Wanted/src/main/java/mostwanted/web/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Most Wanted/src/main/java/mostwanted/web/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Most Wanted/src/main/java/mostwanted/web/controllers/ImportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Most Wanted/src/main/java/mostwanted/web/controllers/ImportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Most Wanted/src/main/resources/templates/json/import-cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Most Wanted/src/main/resources/templates/json/import-cars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Most Wanted/target/classes/mostwanted/repository/CarRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Most Wanted/target/classes/mostwanted/repository/CarRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Most Wanted/target/classes/mostwanted/repository/DistrictRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Most Wanted/target/classes/mostwanted/repository/DistrictRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Most Wanted/target/classes/mostwanted/service/CarServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Most Wanted/target/classes/mostwanted/service/CarServiceImpl$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Most Wanted/target/classes/mostwanted/service/CarServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Most Wanted/target/classes/mostwanted/service/CarServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Most Wanted/target/classes/mostwanted/service/RacerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Most Wanted/target/classes/mostwanted/service/RacerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Most Wanted/target/classes/templates/json/import-cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Most Wanted/target/classes/templates/json/import-cars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernatjpajdbc/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernatjpajdbc/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>orElse</find>
+      <find>Update</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\User\OneDrive\Desktop\java programs\ormdemo\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1QHzOmCShyjnGeHUpaHYeAJVSRk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb&#10;mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540912757963" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.minkov.db.annotations" />
+      <recent name="com.minkov.db" />
+      <recent name="com.minkov.entities" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.minkov.App" />
+      <module name="ormdemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9dc8899-85d3-4921-8ee1-f9dd8b33abe8" name="Default Changelist" comment="" />
+      <created>1540829761737</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540829761737</updated>
+      <workItem from="1540829765920" duration="11803000" />
+      <workItem from="1540898471714" duration="62000" />
+      <workItem from="1540900209145" duration="11539000" />
+      <workItem from="1567442284118" duration="1679000" />
+      <workItem from="1567582255889" duration="144000" />
+      <workItem from="1572687534493" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ormdemo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.google.protobuf:protobuf-java:3.6.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<th:block th:insert="fragments/head">
+</th:block>
+<body>
+<div class="container-fluid">
+    <header th:insert="fragments/navbar">
+    </header>
+    <main>
+        <h1 class="text-center mt-3">Edit Roles</h1>
+        <form class="mx-auto w-50" th:action="@{/users/edit/{id}(id=${user.id})}" th:method="post" th:object="${user}">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input class="form-control" id="username" readonly th:field="*{username}" type="text">
+            </div>
+            <div class="form-group">
+                <label for="roles">Current Roles</label>
+                <select class="form-control" id="roles" multiple>
+                    <option disabled th:each="role : *{authorities}" th:text="${role}">1</option>
+                </select>
+            </div>
+            <div class="form-group form-check">
+                <input class="form-check-input" id="moderator" name="moderator" type="checkbox">
+                <label class="form-check-label" for="moderator">Moderator</label>
+            </div>
+            <div class="form-group form-check">
+                <input class="form-check-input" id="admin" name="admin" type="checkbox">
+                <label class="form-check-label" for="admin">Admin</label>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <button class="btn bg-rs text-white" type="submit">Edit Role</button>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer th:insert="fragments/footer">
+    </footer>
+</div>
+</body>
+</html>
