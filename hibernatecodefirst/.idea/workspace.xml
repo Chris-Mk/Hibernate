@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d84b328d-9f0a-491d-8af3-500c91b8915a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../06. DB-Advanced-Introduction-to-Hibernate-Skeleton/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06. DB-Advanced-Introduction-to-Hibernate-Skeleton/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06. DB-Advanced-Introduction-to-Hibernate-Skeleton/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06. DB-Advanced-Introduction-to-Hibernate-Skeleton/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06. DB-Advanced-Introduction-to-Hibernate-Skeleton/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06. DB-Advanced-Introduction-to-Hibernate-Skeleton/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06. DB-Advanced-Introduction-to-Hibernate-Skeleton/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AccountSystem/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AccountSystem/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AccountSystem/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlueOrigin/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlueOrigin/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlueOrigin/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlueOrigin/target/classes/blueOrigin/Astronaut.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlueOrigin/target/classes/blueOrigin/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlueOrigin/target/classes/blueOrigin/Spaceship.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlueOrigin/target/test-classes/blueOrigin/SpaceshipTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/target/classes/spaceStation/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/target/classes/spaceStation/common/Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/target/classes/spaceStation/common/ConstantMessages.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/target/classes/spaceStation/common/ExceptionMessages.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/target/classes/spaceStation/core/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/target/classes/spaceStation/core/ControllerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/target/classes/spaceStation/core/Engine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/target/classes/spaceStation/core/EngineImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/target/classes/spaceStation/core/EngineImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/target/classes/spaceStation/models/astronauts/Astronaut.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/target/classes/spaceStation/models/astronauts/BaseAstronaut.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/target/classes/spaceStation/models/astronauts/Biologist.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/target/classes/spaceStation/models/astronauts/Geodesist.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/target/classes/spaceStation/models/astronauts/Meteorologist.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/target/classes/spaceStation/models/bags/Backpack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/target/classes/spaceStation/models/bags/Bag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/target/classes/spaceStation/models/mission/Mission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/target/classes/spaceStation/models/mission/MissionImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/target/classes/spaceStation/models/planets/Planet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/target/classes/spaceStation/models/planets/PlanetImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/target/classes/spaceStation/repositories/AstronautRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/target/classes/spaceStation/repositories/PlanetRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceStation/target/classes/spaceStation/repositories/Repository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViceCity/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViceCity/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViceCity/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViceCity/target/classes/viceCity/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViceCity/target/classes/viceCity/common/ConstantMessages.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViceCity/target/classes/viceCity/common/ExceptionMessages.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViceCity/target/classes/viceCity/core/ControllerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViceCity/target/classes/viceCity/core/EngineImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViceCity/target/classes/viceCity/core/interfaces/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViceCity/target/classes/viceCity/core/interfaces/Engine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViceCity/target/classes/viceCity/models/guns/BaseGun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViceCity/target/classes/viceCity/models/guns/Gun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViceCity/target/classes/viceCity/models/guns/Pistol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViceCity/target/classes/viceCity/models/guns/Rifle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViceCity/target/classes/viceCity/models/neighbourhood/GangNeighbourhood.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViceCity/target/classes/viceCity/models/neighbourhood/Neighbourhood.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViceCity/target/classes/viceCity/models/players/BasePlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViceCity/target/classes/viceCity/models/players/CivilPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViceCity/target/classes/viceCity/models/players/MainPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViceCity/target/classes/viceCity/models/players/Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViceCity/target/classes/viceCity/repositories/GunRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViceCity/target/classes/viceCity/repositories/interfaces/Repository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViceCity/target/test-classes/viceCity/models/players/BasePlayerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../billspaymentsystem/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../billspaymentsystem/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../billspaymentsystem/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../billspaymentsystem/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../billspaymentsystem/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../billspaymentsystem/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../billspaymentsystem/target/classes/app/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../billspaymentsystem/target/classes/entities/BankAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../billspaymentsystem/target/classes/entities/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../billspaymentsystem/target/classes/entities/BillingDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../billspaymentsystem/target/classes/entities/CreditCard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../billspaymentsystem/target/classes/entities/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop-system/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop-system/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop-system/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codefirst01/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codefirst01/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codefirst01/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codefirst01/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codefirst01/.idea/dataSources/14015169-4621-4496-822f-327717b02ddb.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codefirst01/.idea/dataSources/14015169-4621-4496-822f-327717b02ddb/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codefirst01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codefirst01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codefirst01/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codefirst01/target/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codefirst01/target/classes/entities/WizardDeposits.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbapps/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbapps/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbapps/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbapps/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbapps/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbapps/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbapps/target/classes/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbapps/target/classes/Engine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbapps/target/classes/META-INF/dbapps.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise/target/classes/business/TodoBusinessImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise/target/classes/data/TodoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise/target/test-classes/business/TodoBusinessImplStubTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise/target/test-classes/business/TodoServiceMockTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise/target/test-classes/data/TodoServiceStub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/target/classes/app/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/target/classes/entities/Bet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/target/classes/entities/BetGame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/target/classes/entities/BetGameId.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/target/classes/entities/Color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/target/classes/entities/Competition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/target/classes/entities/CompetitionType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/target/classes/entities/Continent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/target/classes/entities/Country.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/target/classes/entities/Game.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/target/classes/entities/Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/target/classes/entities/Position.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/target/classes/entities/ResultPrediction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/target/classes/entities/Round.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/target/classes/entities/Team.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/target/classes/entities/Town.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/target/classes/entities/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/target/classes/helpers/Prediction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/target/classes/identifiers/NumberIdentifier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../footballbetting/target/classes/identifiers/StringIdentifier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/hibernatecodefirst.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractions/ChemicalIngredient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractions/Ingredient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractions/Label.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/abstractions/Shampoo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/BasicLabel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/ingredients/BasicIngredient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/ingredients/Lavender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/ingredients/Mint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/ingredients/Nettle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/ingredients/Strawberry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/ingredients/chemicalIngredients/AmmoniumChloride.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/ingredients/chemicalIngredients/BasicChemicalIngredient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/shampoos/BasicShampoo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/shampoos/FiftyShades.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/shampoos/FreshNuke.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/shampoos/PinkPanther.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/helpers/Size.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernatjpajdbc/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernatjpajdbc/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernatjpajdbc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernatjpajdbc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hospital/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hospital/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hospital/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hospital/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hospital/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hospital/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hospital/target/classes/app/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hospital/target/classes/entities/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hospital/target/classes/entities/Diagnose.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hospital/target/classes/entities/Medicament.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hospital/target/classes/entities/Patient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hospital/target/classes/entities/Visitation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ormdemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ormdemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ormdemo/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ormdemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ormdemo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ormdemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ormdemo/target/classes/com/minkov/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ormdemo/target/classes/com/minkov/db/EntityDbContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ormdemo/target/classes/com/minkov/db/annotations/Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ormdemo/target/classes/com/minkov/db/annotations/Entity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ormdemo/target/classes/com/minkov/db/annotations/PrimaryKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ormdemo/target/classes/com/minkov/db/base/DbContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ormdemo/target/classes/com/minkov/entities/Department.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ormdemo/target/classes/com/minkov/entities/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../retake exam/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../retake exam/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../retake exam/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpg-exam-solution/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpg-exam-solution/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpg-exam-solution/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpg-exam-solution/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpg-exam-unit-testing-solution/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpg-exam-unit-testing-solution/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpg-exam-unit-testing-solution/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpg-exam-unit-testing-solution/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sales/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sales/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sales/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sales/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sales/.idea/dataSources/81fceb1f-1ad2-4fe2-8540-6215a1ae4feb.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sales/.idea/dataSources/81fceb1f-1ad2-4fe2-8540-6215a1ae4feb/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sales/.idea/dataSources/81fceb1f-1ad2-4fe2-8540-6215a1ae4feb/storage_v2/_src_/schema/university_system_db.HagVHg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sales/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sales/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sales/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sales/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sales/target/classes/META-INF/sales.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sales/target/classes/app/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../universitysystem/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../universitysystem/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../universitysystem/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../universitysystem/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../universitysystem/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../universitysystem/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../universitysystem/target/classes/app/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../universitysystem/target/classes/entities/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../universitysystem/target/classes/entities/Identifier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../universitysystem/target/classes/entities/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../universitysystem/target/classes/entities/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../universitysystem/target/classes/entities/Teacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-system/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-system/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-system/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="shampoo: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\User\OneDrive\Desktop\java programs\hibernatecodefirst\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Qde43utyzCRnDwM1ChDY1dclr0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.Application" />
+      <module name="hibernatecodefirst" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="hibernatecodefirst" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d84b328d-9f0a-491d-8af3-500c91b8915a" name="Default Changelist" comment="" />
+      <created>1568104707021</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568104707021</updated>
+      <workItem from="1568104717393" duration="18849000" />
+      <workItem from="1568137682320" duration="5510000" />
+      <workItem from="1568208725540" duration="146000" />
+      <workItem from="1568641225913" duration="57000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

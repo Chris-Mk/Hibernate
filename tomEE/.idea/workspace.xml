@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="tomEE:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e22eb68f-1a65-4b52-af86-df7acdd79f07" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../chushka app/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/chushka app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/domain/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/domain/entities/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/domain/models/ModelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/domain/models/ProductCreateModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/repository/GenericRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/repository/ProductRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/util/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/util/FileUtilImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/web/servlets/HomeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/web/servlets/ProductAllServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/web/servlets/ProductCreateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/java/chushka/web/servlets/ProductDetailServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/resources/views/all-products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/resources/views/create-product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/resources/views/details-product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/resources/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chushka app/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="cdi.beans_1_1" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\User\OneDrive\Desktop\java programs\tomEE\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SZ4ScMPzqQ5TuPZU0N6bUg1BIb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="TomEE 9.0.22" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE 9.0.22" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="tomEE:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_tomEE" />
+        <option name="HTTP_PORT" value="8000" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59920" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="tomEE:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e22eb68f-1a65-4b52-af86-df7acdd79f07" name="Default Changelist" comment="" />
+      <created>1571757784966</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571757784966</updated>
+      <workItem from="1571757786877" duration="7385000" />
+      <workItem from="1571908190009" duration="3190000" />
+      <workItem from="1571915599367" duration="8981000" />
+      <workItem from="1571990576977" duration="1499000" />
+      <workItem from="1572021658513" duration="281000" />
+      <workItem from="1572089570946" duration="484000" />
+      <workItem from="1572216367003" duration="164000" />
+    </task>
+    <task id="LOCAL-00001" summary="java servlets">
+      <created>1571924962138</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571924962138</updated>
+    </task>
+    <task id="LOCAL-00002" summary="java servlets">
+      <created>1571925085492</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571925085492</updated>
+    </task>
+    <task id="LOCAL-00003" summary="http request and respond parsing">
+      <created>1571925208232</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571925208232</updated>
+    </task>
+    <task id="LOCAL-00004" summary="java servlets">
+      <created>1571925283780</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571925283780</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="http request and respond parsing" />
+    <MESSAGE value="java servlets" />
+    <option name="LAST_COMMIT_MESSAGE" value="java servlets" />
+  </component>
+</project>
