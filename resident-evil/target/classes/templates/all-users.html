@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<th:block th:insert="fragments/head">
+</th:block>
+<body>
+<div class="container-fluid">
+    <header th:insert="fragments/navbar">
+    </header>
+    <main>
+        <h1 class="text-center mt-3">All Users</h1>
+        <table class="table">
+            <thead class="thead-light">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Username</th>
+                <th scope="col">Roles</th>
+                <th scope="col"></th>
+            </tr>
+            </thead>
+            <tbody th:each="user : ${users}">
+            <tr>
+                <th scope="row" th:text="${userStat.count}"></th>
+                <td th:text="${user.username}"></td>
+                <td>
+                    <ul class="list-inline">
+                        <li class="list-inline-item" th:each="role : ${user.authorities}" th:text="${role}"></li>
+                    </ul>
+                </td>
+                <td th:unless="${user.authorities.contains('ROLE_ADMIN')}">
+                    <a class="btn btn-info" th:href="@{/users/edit/{id}(id=${user.id})}">Edit Role</a>
+                </td>
+            </tr>
+        </table>
+    </main>
+    <footer th:insert="fragments/footer">
+    </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "groups": [
+    {
+      "name": "application.jwt",
+      "type": "com.mkolongo.residentEvil.config.JwtPropertiesConfig",
+      "sourceType": "com.mkolongo.residentEvil.config.JwtPropertiesConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "application.jwt.secret-key",
+      "type": "java.lang.String",
+      "description": "Secret key for signing jwts",
+      "sourceType": "com.mkolongo.residentEvil.config.JwtPropertiesConfig"
+    },
+    {
+      "name": "application.jwt.token-expiration-days",
+      "type": "java.lang.Long",
+      "description": "Number of days to expiration date",
+      "sourceType": "com.mkolongo.residentEvil.config.JwtPropertiesConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "application.jwt.token-prefix",
+      "type": "java.lang.String",
+      "description": "Prefix in the jws i.e Bearer",
+      "sourceType": "com.mkolongo.residentEvil.config.JwtPropertiesConfig"
+    }
+  ],
+  "hints": []
+}

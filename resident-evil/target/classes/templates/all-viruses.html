@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:sec="http://www.thymeleaf.org/extras/spring-security" xmlns:th="http://www.thymeleaf.org">
+<th:block th:insert="fragments/head">
+</th:block>
+<body>
+<div class="container-fluid">
+    <header th:insert="fragments/navbar">
+    </header>
+    <main>
+        <h1 class="text-center mt-3">All Viruses</h1>
+        <table class="table">
+            <thead class="thead-light">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Magnitude</th>
+                <th scope="col">Released On</th>
+                <th:block sec:authorize="hasAnyRole('MODERATOR', 'ADMIN')">
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                </th:block>
+            </tr>
+            </thead>
+            <tbody th:each="virus : ${viruses}">
+            <tr>
+                <th scope="row" th:text="${virusStat.count}"></th>
+                <td th:text="${virus.name}"></td>
+                <td th:text="${virus.magnitude}"></td>
+                <td th:text="${virus.releaseDate}"></td>
+                <th:block sec:authorize="hasAnyRole('MODERATOR', 'ADMIN')">
+                    <td><a class="btn btn-info" th:href="@{/viruses/edit/{id}(id=${virus.id})}">Edit</a></td>
+                    <td><a class="btn btn-info" th:href="@{/viruses/delete/{id}(id=${virus.id})}">Delete</a></td>
+                </th:block>
+            </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer th:insert="fragments/footer">
+    </footer>
+</div>
+</body>
+</html>
