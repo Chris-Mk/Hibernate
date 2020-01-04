@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<ui:composition template="template/base-layout.xhtml">
+    <ui:define name="main-content">
+        <div class="jumbotron justify-content-center jumbotron-background">
+            <div class="row">
+                <div class="col col-md-12 d-flex justify-content-center">
+                    <h1>All Cats!</h1>
+                </div>
+            </div>
+            <hr class="hr-background"/>
+            <h:dataTable value="#{catListViewBean.cats}" var="c" styleClass="table table-striped">
+                <h:column>
+                    <f:facet name="header">Name</f:facet>
+                    <h:outputText value="#{c.name}"/>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Breed</f:facet>
+                    <h:outputText value="#{c.breed}"/>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Color</f:facet>
+                    <h:outputText value="#{c.color}"/>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Gender</f:facet>
+                    <h:outputText value="#{c.gender}"/>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Price</f:facet>
+                    <h:outputText value="$#{c.price}" id="cat_added_on"/>
+<!--                    <f:convertNumber type="currency" currencySymbol="$" pattern="0.00" for="cat_added_on"/>-->
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Added On</f:facet>
+                    <h:outputText value="#{c.addedOn}"/>
+                </h:column>
+            </h:dataTable>
+        </div>
+    </ui:define>
+</ui:composition>
+</html>
